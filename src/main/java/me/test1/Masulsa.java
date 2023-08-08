@@ -23,7 +23,7 @@ public class Masulsa {
         }*/
 
         // 다른 곳에서 해당 class를 호출하면 의미가 없다.
-        ClassLoader classLoader = Masulsa.class.getClassLoader();
+       /* ClassLoader classLoader = Masulsa.class.getClassLoader();
         TypePool typePool = TypePool.Default.of(classLoader);
 
         try {
@@ -33,7 +33,7 @@ public class Masulsa {
                     .make().saveIn(new File("/Users/jin/IdeaProjects/at_maven/target/classes"));
         } catch (IOException e) {
             throw new RuntimeException(e);
-        }
+        }*/
 
         System.out.println(new Moja().pullOut());
     }
